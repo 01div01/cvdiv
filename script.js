@@ -1,3 +1,4 @@
+
 const canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
@@ -11,13 +12,13 @@ let config = {
   PRESSURE_DISSIPATION: 0,
     PRESSURE_ITERATIONS: 25,
     CURL: 2,
-    SPLAT_RADIUS: 0.02,
+    SPLAT_RADIUS: 0.01,
     SPLAT_FORCE: 20,
     SHADING: true,
     COLORFUL: true,
     COLOR_UPDATE_SPEED: 10,
     PAUSED: false,
-    //BACK_COLOR: { r: 0, g: 0, b: 0 },
+    BACK_COLOR: { r: 0, g: 0, b: 0 },
     TRANSPARENT: true,
     BLOOM: true,
     BLOOM_ITERATIONS: 8,
