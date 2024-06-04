@@ -23,6 +23,9 @@ a{
 h3{
     position: relative;
 }
+strong{
+    position:relative;
+}
 .container {
     
     width: 90%;
