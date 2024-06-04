@@ -9,14 +9,13 @@ body {
 }
 
 .parallax {
-    /* background-image: url('https://er9wjw26noi.exactdn.com/wp-content/uploads/2023/12/cover-AI-myths.jpg?lossy=1&quality=88&webp=88&ssl=1'); */
+    background-image: url('https://d3nwecxvwq3b5n.cloudfront.net/AcuCustom/Sitename/DAM/023/iStock-1408434412.jpg');
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .container {
     width: 90%;
     margin: auto;
@@ -32,8 +31,6 @@ body {
 header {
     text-align: center;
     padding-bottom: 20px;
-
-    /* border-bottom: 1px solid #ccc; */
 }
 
 header h1 {
