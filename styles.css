@@ -17,6 +17,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+a{
+    position: relative;
+}
+h3{
+    position: relative;
+}
 .container {
     
     width: 90%;
@@ -124,5 +130,5 @@ section h2:hover {
     height: 100%;
     /* pointer-events: none; */
     z-index: auto;
-    opacity:0.6;
+    opacity:0.4;
 }
