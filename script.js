@@ -14,9 +14,9 @@ let config = {
     SPLAT_RADIUS: 0.02,
     SPLAT_FORCE: 20,
     SHADING: true,
-    //COLORFUL: true,
-    //COLOR_UPDATE_SPEED: 10,
-    //PAUSED: false,
+    COLORFUL: true,
+    COLOR_UPDATE_SPEED: 10,
+    PAUSED: false,
     //BACK_COLOR: { r: 0, g: 0, b: 0 },
     TRANSPARENT: true,
     BLOOM: true,
@@ -688,7 +688,3 @@ window.addEventListener('touchend', e => {
   if (touches[i].identifier == pointers[j].id)
   pointers[j].down = false;
 });
-
-
-
-Resources
