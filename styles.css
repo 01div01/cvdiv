@@ -136,7 +136,7 @@ section h2:hover {
     opacity:0.4;
 }
 .download-section {
-    background-color: transparent; /* Light grey background for the section */
+    background-color: transparent; 
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -146,15 +146,15 @@ section h2:hover {
 .download-header {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #333; /* Dark grey color for the header text */
+    color: #333; 
 }
 
 .download-link {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #007bff; /* Blue background color for the button */
-    color: #fff; /* White color for the button text */
+    background-color: #007bff; 
+    color: #fff; 
     text-decoration: none;
     border-radius: 5px;
     font-size: 1em;
@@ -162,5 +162,5 @@ section h2:hover {
 }
 
 .download-link:hover {
-    background-color: #0056b3; /* Darker blue background color on hover */
+    background-color: #0056b3; 
 }
