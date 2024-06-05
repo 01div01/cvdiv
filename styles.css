@@ -3,6 +3,8 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    /* overflow: auto; */
+    overflow-y: scroll;
     /* overflow: hidden; */
     /* color: hsl(0, 0%, 20%); */
     transition: opacity 0.3s ease;
@@ -26,6 +28,7 @@ h3{
 strong{
     position:relative;
 }
+
 .container {
     
     width: 90%;
@@ -36,7 +39,7 @@ strong{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: -200px;
     border-radius: 8px;
-    color: #a0ccf3;
+    color: #a0d7f3;
 }
 
 header {
@@ -48,6 +51,7 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     color: #ffffff;
+    position:relative;
 }
 
 header p.subtitle {
@@ -72,6 +76,7 @@ header p.contact a:hover {
 
 .intro {
     margin: 20px 0;
+    position:relative;
 }
 
 .columns {
@@ -80,6 +85,7 @@ header p.contact a:hover {
 }
 
 .column {
+    position:relative;
     flex: 1;
     margin: 10px;
 }
