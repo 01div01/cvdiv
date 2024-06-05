@@ -19,15 +19,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-a{
+a, h3, strong,h2, ul{
     position: relative;
 }
-h3{
-    position: relative;
-}
-strong{
-    position:relative;
-}
+
 
 .container {
     
